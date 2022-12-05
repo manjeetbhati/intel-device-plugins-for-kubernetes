@@ -8,4 +8,5 @@ spec:
       containers:
       - name: intel-qat-plugin
         args:
-        - "-v=4"
+        - "-max-num-devices=128"
+        #- "-v=4"
